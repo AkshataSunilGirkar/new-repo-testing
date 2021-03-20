@@ -1,0 +1,152 @@
+*{
+   / border: 1px solid blue;
+    margin: 0;
+    padding: 0;
+}
+body{
+   /background: linear-gradient(black, #ddd);
+    margin: 0;
+    padding: 0% 10%;
+}
+.nav{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-bottom-color:2px solid #369;
+}
+.nav .image{
+    width: 12%;
+    text-align: center;
+}
+.nav .name{
+    width: 88%;
+    text-align: center;
+}
+.nav .name h1{
+        background: -webkit-linear-gradient(darkblue,blue, white);
+                    -webkit-background-clip:text;
+                    -webkit-text-fill-color:transparent;
+            }
+hr{
+    border: 2px solid #369;
+}
+/*
+.link ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+*/
+
+
+.content {
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content .left{
+    width: 13%;
+    padding: 10px;
+    background-color: #aaa;
+}
+.content .left li{
+    list-style-type: none;
+    padding: 10px;
+}
+.content .right{
+    width: 87%;
+    padding: 2%;
+}
+.content .right img{
+    padding-left: 10%;
+    text-align: center;
+}
+.content .right p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+.content .right h1{
+    padding: 18px 5px;
+}
+
+.content .right li{
+    list-style-type:square;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 2px;
+}
+.content .left a{
+    text-decoration: none;
+    }
+.autho .div1, .div2{
+    border: 1px  solid gray;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.autho p{
+    padding: 20px;
+}
+.autho .div1 p{
+    margin-left: 50px;
+}
+.autho .div2 img{
+    margin-left: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.nav{
+    /background-color: #eee;
+    position: fixed;
+    z-index: 10;
+}
+.nav img{
+    float: left;
+}
+.nav h1{
+    float: left;
+    padding: 11px;
+    background-color: #eee
+}
+ hr{
+        z-index: 10;
+        margin-top: 80px;
+        border: 2px solid #369 ;
+        margin-bottom: 20px;
+        width: 1100;
+    }
+.content{
+    margin-top: 100px;
+}*/
